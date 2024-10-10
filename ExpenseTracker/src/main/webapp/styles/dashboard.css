@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+ .left-grid, .right-grid {
+            border: 1px solid transparent; 
+            border-radius: 20px; 
+            height:  680px;  
+            margin-top : 20px;
+         
+            
+}
+.left-grid {
+            margin-right: 10px;
+            margin-left : 60px; 
+}
+
+.light-green-shadow {
+    box-shadow: 0 4px 20px rgba(144, 238, 144, 0.5); 
+}
+.merienda-custom-header {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold; 
+  font-style: normal;
+}
+.spacing-row {
+    margin-top: 10px; 
+}
+.nav-links {
+            margin-top: 40px; 
+            margin-bottom: 10px; 
+             display: flex; 
+            flex-direction: column; 
+            align-items: center;
+}
+
+.nav-link {
+            display: block; 
+            margin-bottom: 20px;
+            font-size: 18px; 
+}
+.nav-links {
+    list-style-type: none; 
+    padding: 0; /* Remove padding */
+}
+
+.nav-links a {
+    display: block;
+    width : 300px; 
+    padding: 10px; 
+    border-radius : 10px;
+    text-decoration: none;
+    transition: background-color 0.3s; 
+}
+
+.nav-links a:hover {
+    background-color: #198754; 
+    border-radius: 5px; 
+    color: white; 
+}
+.logout-container {
+    padding: 10px; 
+    margin-top: 100px;
+    margin-left : 120px; 
+}
+
+.dashboard-heading {
+    font-size: 70px; 
+    margin: 20px 0; 
+}
+.card {
+	margin-top : 30px;
+    min-height: 130px; 
+    border-radius: 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;  
+    height: 100%;           
+}
+.custom-card {
+    max-width: 90%; 
+    margin: 0 auto; 
+}
+.form-container {
+        max-width: 400px; 
+        margin: 0 auto; 
+ }
